@@ -1,0 +1,73 @@
+/* Existing styles */
+body {
+    text-align: center;
+    background-color: #f1e6d9;
+    color: white;
+    font-family: helvetica, Arial;
+}
+
+#add {
+    background-color: #694928;
+    border: 0;
+    color: white;
+    padding: 10px 10px;
+    padding-right: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.remove {
+    /*styling for the remove button*/
+    background-color: #694928;
+    padding-right: 20px;
+    border-style: none;
+    text-align: center;
+    color: white;
+    width: 75px;
+    height: 23px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#wrapper {
+    width: 450px;
+    background-color: #aa9279;
+    margin-top: 120px;
+    margin-left: 400px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 65px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    line-height: 40px;
+    padding-left: 0; /* Remove default padding */
+}
+
+#task {
+    width: 320px;
+    height: 30px;
+    margin-left: 17px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+/* Flexbox styling to align task text and button on the same line */
+li {
+    display: flex;
+    align-items: center; /* Vertically center-align */
+    justify-content: space-between; /* Space between text and button */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.remove {
+    display: inline-block; /* Ensure button is inline */
+    margin-left: 10px; /* Space between task text and button */
+
+}
